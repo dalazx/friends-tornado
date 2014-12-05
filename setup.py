@@ -10,6 +10,6 @@ setup(
     author_email='dalazx@gmail.com',
 
     packages=find_packages(),
-    install_requires=['tornado', 'tornado-redis'],
+    install_requires=['tornado-redis', 'tornado'],
     test_suite='friends_tornado.tests'
 )
