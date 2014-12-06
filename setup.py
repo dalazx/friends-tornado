@@ -5,7 +5,7 @@ setup(
     name='friends-tornado',
     version='0.0.1',
     description='Friends Relationship Management Service',
-    url='',
+    url='https://github.com/dalazx/friends-tornado',
     author='Aleksandr Danshyn',
     author_email='dalazx@gmail.com',
 
