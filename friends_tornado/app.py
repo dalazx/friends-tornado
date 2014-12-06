@@ -96,7 +96,7 @@ def validate_user_friends_payload(user_id, payload):
             'Friends payload\'s friend_ids item is not a list')
 
     for friend_id in friend_ids:
-        validate_user_id(friend_id)
+        friend_id = validate_user_id(friend_id)
         validate_user_friend_ids(user_id, friend_id)
 
     return payload
